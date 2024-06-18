@@ -11,7 +11,7 @@ You can download Dilify from:
 
 ## Contact
 
-For questions or support, contact [Asher Joju](mailto:asherjoju@gmail.com).
+For questions or support, contact 'asherjoju@gmail.com'.
 
 ## Contributing
 
