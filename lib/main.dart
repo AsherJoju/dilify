@@ -1,3 +1,4 @@
+import 'package:dilify/views/tasks_view.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -29,18 +30,15 @@ class _MainState extends State<Main> {
   Widget build(BuildContext context) {
     return MaterialApp(
       theme: ThemeData(
-        colorScheme: ColorScheme.fromSeed(
-          seedColor: seedColor,
-          brightness: Brightness.light,
-        ),
+        colorSchemeSeed: seedColor,
+        brightness: Brightness.light,
       ),
       darkTheme: ThemeData(
-        colorScheme: ColorScheme.fromSeed(
-          seedColor: seedColor,
-          brightness: Brightness.dark,
-        ),
+        colorSchemeSeed: seedColor,
+        brightness: Brightness.dark,
       ),
       themeMode: themeMode,
+      home: TasksView(),
     );
   }
 }
